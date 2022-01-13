@@ -6,10 +6,12 @@
     "packages/*"
   ],
   "scripts": {
+    "lint": "eslint packages/*/src/ --ext ts,tsx --max-warnings 0",
     "visuallyhidden": "yarn workspace @kaakao-ui/visually-hidden",
-    "visuallyhidden:build": "yarn visuallyhidden build",
-    "reset": "rm -rf yarn.lock node_modules packages/**/node_modules && yarn install",
-    "test": "jest"
+    "visuallyhidden:build": "yarn lint && yarn visuallyhidden build",
+    "reset": "rm -rf yarn.lock node_modules packages/*/node_modules && yarn install",
+    "test": "jest",
+    "test:dev": "jest --watch"
   },
   "jest": {
     "globals": {
@@ -39,6 +41,7 @@
     "babel-jest": "^27.4.6",
     "babel-plugin-styled-components": "^2.0.2",
     "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jsx-a11y": "^6.5.1",
@@ -47,6 +50,7 @@
     "eslint-plugin-promise": "^5.2.0",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "husky": "^7.0.4",
     "jest": "^27.4.7",
     "prettier": "^2.5.1",
     "react": "^17.0.2",
@@ -58,5 +62,10 @@
     "rollup-plugin-visualizer": "^5.5.2",
     "tslib": "^2.3.1",
     "typescript": "^4.5.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "yarn lint"
+    }
   }
 }
