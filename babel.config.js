@@ -6,6 +6,7 @@ module.exports = {
         targets: "> 0.5%, last 2 versions, Firefox ESR, not dead",
       },
     ],
+    "@babel/preset-typescript",
     "@babel/preset-react",
   ],
   plugins: [

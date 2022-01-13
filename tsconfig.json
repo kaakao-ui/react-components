@@ -14,7 +14,8 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "experimentalDecorators": true,
-    "noEmit": true
+    "noEmit": true,
+    "types": ["jest", "@testing-library/jest-dom"]
   },
   "files": ["utils/types/declarations.d.ts"],
   "include": ["packages/*/src/**/*"],

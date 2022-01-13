@@ -8,21 +8,38 @@
   "scripts": {
     "visuallyhidden": "yarn workspace @kaakao-ui/visually-hidden",
     "visuallyhidden:build": "yarn visuallyhidden build",
-    "reset": "rm -rf yarn.lock node_modules packages/**/node_modules && yarn install"
+    "reset": "rm -rf yarn.lock node_modules packages/**/node_modules && yarn install",
+    "test": "jest"
+  },
+  "jest": {
+    "globals": {
+      "PACKAGE_VERSION": true
+    },
+    "testEnvironment": "jsdom"
   },
   "devDependencies": {
     "@babel/core": "^7.16.7",
     "@babel/preset-env": "^7.16.8",
     "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
     "@rollup/plugin-babel": "^5.3.0",
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-replace": "^3.0.1",
     "@rollup/plugin-typescript": "^8.3.0",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@types/jest": "^27.4.0",
     "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
     "@types/styled-components": "^5.1.20",
     "acorn-jsx": "^5.3.2",
     "babel-core": "^6.26.3",
+    "babel-jest": "^27.4.6",
     "babel-plugin-styled-components": "^2.0.2",
+    "jest": "^27.4.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-test-renderer": "^17.0.2",
     "rollup": "^2.63.0",
     "rollup-plugin-cleanup": "^3.2.1",
     "rollup-plugin-delete": "^2.0.0",
