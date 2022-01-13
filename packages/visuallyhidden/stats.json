@@ -4,17 +4,17 @@
     "name": "root",
     "children": [
       {
-        "name": "index.esm.js",
+        "name": "index.cjs.js",
         "children": [
           {
             "name": "src",
             "children": [
               {
-                "uid": "4000-6",
+                "uid": "ef0f-6",
                 "name": "VisuallyHidden.tsx"
               },
               {
-                "uid": "4000-8",
+                "uid": "ef0f-8",
                 "name": "index.ts"
               }
             ]
@@ -25,56 +25,56 @@
     "isRoot": true
   },
   "nodeParts": {
-    "4000-6": {
-      "renderedLength": 405,
-      "gzipLength": 284,
-      "brotliLength": 223,
-      "mainUid": "4000-5"
+    "ef0f-6": {
+      "renderedLength": 419,
+      "gzipLength": 293,
+      "brotliLength": 236,
+      "mainUid": "ef0f-5"
     },
-    "4000-8": {
+    "ef0f-8": {
       "renderedLength": 0,
       "gzipLength": 0,
       "brotliLength": 0,
-      "mainUid": "4000-7"
+      "mainUid": "ef0f-7"
     }
   },
   "nodeMetas": {
-    "4000-5": {
+    "ef0f-5": {
       "id": "/src/VisuallyHidden.tsx",
       "moduleParts": {
-        "index.esm.js": "4000-6"
+        "index.cjs.js": "ef0f-6"
       },
       "imported": [
         {
-          "uid": "4000-9"
+          "uid": "ef0f-9"
         }
       ],
       "importedBy": [
         {
-          "uid": "4000-7"
+          "uid": "ef0f-7"
         }
       ]
     },
-    "4000-7": {
+    "ef0f-7": {
       "id": "/src/index.ts",
       "moduleParts": {
-        "index.esm.js": "4000-8"
+        "index.cjs.js": "ef0f-8"
       },
       "imported": [
         {
-          "uid": "4000-5"
+          "uid": "ef0f-5"
         }
       ],
       "importedBy": [],
       "isEntry": true
     },
-    "4000-9": {
+    "ef0f-9": {
       "id": "styled-components",
       "moduleParts": {},
       "imported": [],
       "importedBy": [
         {
-          "uid": "4000-5"
+          "uid": "ef0f-5"
         }
       ],
       "isExternal": true
