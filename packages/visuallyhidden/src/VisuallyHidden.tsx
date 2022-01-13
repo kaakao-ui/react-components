@@ -4,7 +4,7 @@ import { IVisuallyHidden } from "./VisuallyHidden.types";
 const VisuallyHidden = styled.div.attrs<IVisuallyHidden>((props) => ({
   "data-testid": props.testId,
   "data-kaakao-id": "visuallyhidden",
-  "data-kaakao-version": PACKAGE_VERSION,
+  "data-kaakao-v": PACKAGE_VERSION,
 }))<IVisuallyHidden>`
   border: 0px;
   clip: rect(0px, 0px, 0px, 0px);
