@@ -19,7 +19,7 @@ npm install react @kaakao-ui/visually-hidden
 ## Usage
 
 ```jsx
-import { VisuallyHidden } from "@kaakao-ui/visually-hidden";
+import { VisuallyHidden } from '@kaakao-ui/visually-hidden';
 
 <VisuallyHidden>Link opens in a new window.</VisuallyHidden>;
 ```
