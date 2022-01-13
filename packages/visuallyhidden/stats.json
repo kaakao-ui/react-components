@@ -10,11 +10,11 @@
             "name": "src",
             "children": [
               {
-                "uid": "f890-6",
+                "uid": "4000-6",
                 "name": "VisuallyHidden.tsx"
               },
               {
-                "uid": "f890-8",
+                "uid": "4000-8",
                 "name": "index.ts"
               }
             ]
@@ -25,56 +25,56 @@
     "isRoot": true
   },
   "nodeParts": {
-    "f890-6": {
+    "4000-6": {
       "renderedLength": 405,
-      "gzipLength": 283,
+      "gzipLength": 284,
       "brotliLength": 223,
-      "mainUid": "f890-5"
+      "mainUid": "4000-5"
     },
-    "f890-8": {
+    "4000-8": {
       "renderedLength": 0,
       "gzipLength": 0,
       "brotliLength": 0,
-      "mainUid": "f890-7"
+      "mainUid": "4000-7"
     }
   },
   "nodeMetas": {
-    "f890-5": {
+    "4000-5": {
       "id": "/src/VisuallyHidden.tsx",
       "moduleParts": {
-        "index.esm.js": "f890-6"
+        "index.esm.js": "4000-6"
       },
       "imported": [
         {
-          "uid": "f890-9"
+          "uid": "4000-9"
         }
       ],
       "importedBy": [
         {
-          "uid": "f890-7"
+          "uid": "4000-7"
         }
       ]
     },
-    "f890-7": {
+    "4000-7": {
       "id": "/src/index.ts",
       "moduleParts": {
-        "index.esm.js": "f890-8"
+        "index.esm.js": "4000-8"
       },
       "imported": [
         {
-          "uid": "f890-5"
+          "uid": "4000-5"
         }
       ],
       "importedBy": [],
       "isEntry": true
     },
-    "f890-9": {
+    "4000-9": {
       "id": "styled-components",
       "moduleParts": {},
       "imported": [],
       "importedBy": [
         {
-          "uid": "f890-5"
+          "uid": "4000-5"
         }
       ],
       "isExternal": true
