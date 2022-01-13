@@ -1,4 +1,4 @@
-![Kaakao-UI](/kaakao.jpg)
+<img alt="Kaakao-UI" src="kaakao.jpg" width="100%">
 
 # Kaakao-UI React Components
 
