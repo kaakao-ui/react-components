@@ -13,7 +13,7 @@ Visually Hidden is used when an element needs to be available to assistive techn
 npm install @kaakao-ui/visually-hidden
 
 # With Peer Dependencies
-npm install react @kaakao-ui/visually-hidden
+npm install react react-dom @kaakao-ui/visually-hidden
 ```
 
 ## Usage
