@@ -1,0 +1,36 @@
+{
+  "name": "@kaakao-ui/visually-hidden",
+  "version": "0.0.1",
+  "description": "Visually hidden component in the Kaakao-UI Design System.",
+  "license": "MIT",
+  "author": "Daniel Yuschick <daniel.yuschick@gmail.com>",
+  "repository": "https://github.com/kaakao-ui/react-components",
+  "homepage": "https://github.com/kaakao-ui/react-components",
+  "bugs": {
+    "url": "https://github.com/kaakao-ui/react-components/issues"
+  },
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "NODE_ENV=production rollup -c ../../utils/build/rollup.config.js"
+  },
+  "sideEffects": false,
+  "devDependencies": {
+    "styled-components": "^5.3.3"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "keywords": [
+    "components",
+    "kaakao",
+    "react"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "kaakao:src": "src/index.ts"
+}
