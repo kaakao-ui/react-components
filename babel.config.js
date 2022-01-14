@@ -1,13 +1,13 @@
 module.exports = {
   presets: [
     [
-      "@babel/preset-env",
+      '@babel/preset-env',
       {
-        targets: "> 0.5%, last 2 versions, Firefox ESR, not dead",
-      },
+        targets: '> 0.5%, last 2 versions, Firefox ESR, not dead'
+      }
     ],
-    "@babel/preset-typescript",
-    "@babel/preset-react",
+    '@babel/preset-typescript',
+    '@babel/preset-react'
   ],
   plugins: [
     // "@babel/plugin-transform-object-assign",
@@ -17,10 +17,10 @@ module.exports = {
     //     loose: true,
     //   },
     // ],
-    "babel-plugin-styled-components",
+    'babel-plugin-styled-components'
     // ["@babel/plugin-proposal-private-property-in-object", { loose: true }],
     // ["@babel/plugin-proposal-private-methods", { loose: true }],
-  ],
+  ]
   //   env: {
   //     production: {
   //       plugins: [["react-remove-properties", { properties: [/data-test/u] }]],
