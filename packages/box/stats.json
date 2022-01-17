@@ -4,17 +4,17 @@
     "name": "root",
     "children": [
       {
-        "name": "index.cjs.js",
+        "name": "index.esm.js",
         "children": [
           {
             "name": "src",
             "children": [
               {
-                "uid": "c541-7",
+                "uid": "3526-1",
                 "name": "Box.tsx"
               },
               {
-                "uid": "c541-9",
+                "uid": "3526-3",
                 "name": "index.ts"
               }
             ]
@@ -25,70 +25,70 @@
     "isRoot": true
   },
   "nodeParts": {
-    "c541-7": {
-      "renderedLength": 311,
-      "gzipLength": 226,
-      "brotliLength": 196,
-      "mainUid": "c541-6"
+    "3526-1": {
+      "renderedLength": 278,
+      "gzipLength": 204,
+      "brotliLength": 172,
+      "mainUid": "3526-0"
     },
-    "c541-9": {
+    "3526-3": {
       "renderedLength": 0,
       "gzipLength": 0,
       "brotliLength": 0,
-      "mainUid": "c541-8"
+      "mainUid": "3526-2"
     }
   },
   "nodeMetas": {
-    "c541-6": {
+    "3526-0": {
       "id": "/src/Box.tsx",
       "moduleParts": {
-        "index.cjs.js": "c541-7"
+        "index.esm.js": "3526-1"
       },
       "imported": [
         {
-          "uid": "c541-10"
+          "uid": "3526-4"
         },
         {
-          "uid": "c541-11"
+          "uid": "3526-5"
         }
       ],
       "importedBy": [
         {
-          "uid": "c541-8"
+          "uid": "3526-2"
         }
       ]
     },
-    "c541-8": {
+    "3526-2": {
       "id": "/src/index.ts",
       "moduleParts": {
-        "index.cjs.js": "c541-9"
+        "index.esm.js": "3526-3"
       },
       "imported": [
         {
-          "uid": "c541-6"
+          "uid": "3526-0"
         }
       ],
       "importedBy": [],
       "isEntry": true
     },
-    "c541-10": {
+    "3526-4": {
       "id": "@kaakao-ui/styled-mixins",
       "moduleParts": {},
       "imported": [],
       "importedBy": [
         {
-          "uid": "c541-6"
+          "uid": "3526-0"
         }
       ],
       "isExternal": true
     },
-    "c541-11": {
+    "3526-5": {
       "id": "styled-components",
       "moduleParts": {},
       "imported": [],
       "importedBy": [
         {
-          "uid": "c541-6"
+          "uid": "3526-0"
         }
       ],
       "isExternal": true
@@ -102,4 +102,5 @@
     "brotli": true,
     "sourcemap": false
   }
+} }
 }
