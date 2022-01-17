@@ -4,17 +4,17 @@
     "name": "root",
     "children": [
       {
-        "name": "index.cjs.js",
+        "name": "index.esm.js",
         "children": [
           {
             "name": "src",
             "children": [
               {
-                "uid": "ef0f-6",
+                "uid": "6e82-1",
                 "name": "VisuallyHidden.tsx"
               },
               {
-                "uid": "ef0f-8",
+                "uid": "6e82-3",
                 "name": "index.ts"
               }
             ]
@@ -25,63 +25,63 @@
     "isRoot": true
   },
   "nodeParts": {
-    "ef0f-6": {
-      "renderedLength": 419,
-      "gzipLength": 293,
-      "brotliLength": 236,
-      "mainUid": "ef0f-5"
+    "6e82-1": {
+      "renderedLength": 399,
+      "gzipLength": 282,
+      "brotliLength": 220,
+      "mainUid": "6e82-0"
     },
-    "ef0f-8": {
+    "6e82-3": {
       "renderedLength": 0,
       "gzipLength": 0,
       "brotliLength": 0,
-      "mainUid": "ef0f-7"
+      "mainUid": "6e82-2"
     }
   },
   "nodeMetas": {
-    "ef0f-5": {
+    "6e82-0": {
       "id": "/src/VisuallyHidden.tsx",
       "moduleParts": {
-        "index.cjs.js": "ef0f-6"
+        "index.esm.js": "6e82-1"
       },
       "imported": [
         {
-          "uid": "ef0f-9"
+          "uid": "6e82-4"
         }
       ],
       "importedBy": [
         {
-          "uid": "ef0f-7"
+          "uid": "6e82-2"
         }
       ]
     },
-    "ef0f-7": {
+    "6e82-2": {
       "id": "/src/index.ts",
       "moduleParts": {
-        "index.cjs.js": "ef0f-8"
+        "index.esm.js": "6e82-3"
       },
       "imported": [
         {
-          "uid": "ef0f-5"
+          "uid": "6e82-0"
         }
       ],
       "importedBy": [],
       "isEntry": true
     },
-    "ef0f-9": {
+    "6e82-4": {
       "id": "styled-components",
       "moduleParts": {},
       "imported": [],
       "importedBy": [
         {
-          "uid": "ef0f-5"
+          "uid": "6e82-0"
         }
       ],
       "isExternal": true
     }
   },
   "env": {
-    "rollup": "2.63.0"
+    "rollup": "2.64.0"
   },
   "options": {
     "gzip": true,

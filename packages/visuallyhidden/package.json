@@ -1,6 +1,6 @@
 {
   "name": "@kaakao-ui/visually-hidden",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Visually hidden component in the Kaakao-UI Design System.",
   "license": "MIT",
   "author": "Daniel Yuschick <daniel.yuschick@gmail.com>",
