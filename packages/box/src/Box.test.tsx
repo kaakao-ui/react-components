@@ -2,7 +2,7 @@ import React from 'react';
 import '@testing-library/jest-dom';
 
 import Box from './Box';
-import { render, screen } from 'packages/utils/test-utils';
+import { render, screen } from '../../utils/test-utils';
 
 describe('<Box />', () => {
   test('Renders with correct testId', () => {
