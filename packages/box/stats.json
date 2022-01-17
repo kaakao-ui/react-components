@@ -10,11 +10,11 @@
             "name": "src",
             "children": [
               {
-                "uid": "4a06-1",
+                "uid": "72b6-1",
                 "name": "Box.tsx"
               },
               {
-                "uid": "4a06-3",
+                "uid": "72b6-3",
                 "name": "index.ts"
               }
             ]
@@ -25,70 +25,70 @@
     "isRoot": true
   },
   "nodeParts": {
-    "4a06-1": {
-      "renderedLength": 278,
-      "gzipLength": 204,
-      "brotliLength": 172,
-      "mainUid": "4a06-0"
+    "72b6-1": {
+      "renderedLength": 279,
+      "gzipLength": 205,
+      "brotliLength": 174,
+      "mainUid": "72b6-0"
     },
-    "4a06-3": {
+    "72b6-3": {
       "renderedLength": 0,
       "gzipLength": 0,
       "brotliLength": 0,
-      "mainUid": "4a06-2"
+      "mainUid": "72b6-2"
     }
   },
   "nodeMetas": {
-    "4a06-0": {
+    "72b6-0": {
       "id": "/src/Box.tsx",
       "moduleParts": {
-        "index.esm.js": "4a06-1"
+        "index.esm.js": "72b6-1"
       },
       "imported": [
         {
-          "uid": "4a06-4"
+          "uid": "72b6-4"
         },
         {
-          "uid": "4a06-5"
+          "uid": "72b6-5"
         }
       ],
       "importedBy": [
         {
-          "uid": "4a06-2"
+          "uid": "72b6-2"
         }
       ]
     },
-    "4a06-2": {
+    "72b6-2": {
       "id": "/src/index.ts",
       "moduleParts": {
-        "index.esm.js": "4a06-3"
+        "index.esm.js": "72b6-3"
       },
       "imported": [
         {
-          "uid": "4a06-0"
+          "uid": "72b6-0"
         }
       ],
       "importedBy": [],
       "isEntry": true
     },
-    "4a06-4": {
+    "72b6-4": {
       "id": "@kaakao-ui/styled-mixins",
       "moduleParts": {},
       "imported": [],
       "importedBy": [
         {
-          "uid": "4a06-0"
+          "uid": "72b6-0"
         }
       ],
       "isExternal": true
     },
-    "4a06-5": {
+    "72b6-5": {
       "id": "styled-components",
       "moduleParts": {},
       "imported": [],
       "importedBy": [
         {
-          "uid": "4a06-0"
+          "uid": "72b6-0"
         }
       ],
       "isExternal": true
