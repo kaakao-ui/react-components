@@ -1,6 +1,6 @@
 {
   "name": "@kaakao-ui/box",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Box is the most abstract Kaakao-UI layout component.",
   "license": "MIT",
   "author": "Daniel Yuschick <daniel.yuschick@gmail.com>",
@@ -19,8 +19,10 @@
     "build": "NODE_ENV=production rollup -c ../../utils/build/rollup.config.js"
   },
   "sideEffects": false,
+  "dependencies": {
+    "@kaakao-ui/styled-mixins": "^0.0.5"
+  },
   "devDependencies": {
-    "@kaakao-ui/styled-mixins": "^0.0.5",
     "styled-components": "^5.3.3"
   },
   "peerDependencies": {
