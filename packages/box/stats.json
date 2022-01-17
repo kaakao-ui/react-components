@@ -1,0 +1,106 @@
+{
+  "version": 2,
+  "tree": {
+    "name": "root",
+    "children": [
+      {
+        "name": "index.esm.js",
+        "children": [
+          {
+            "name": "src",
+            "children": [
+              {
+                "uid": "1ffc-1",
+                "name": "Box.tsx"
+              },
+              {
+                "uid": "1ffc-3",
+                "name": "index.ts"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "isRoot": true
+  },
+  "nodeParts": {
+    "1ffc-1": {
+      "renderedLength": 278,
+      "gzipLength": 203,
+      "brotliLength": 172,
+      "mainUid": "1ffc-0"
+    },
+    "1ffc-3": {
+      "renderedLength": 0,
+      "gzipLength": 0,
+      "brotliLength": 0,
+      "mainUid": "1ffc-2"
+    }
+  },
+  "nodeMetas": {
+    "1ffc-0": {
+      "id": "/src/Box.tsx",
+      "moduleParts": {
+        "index.esm.js": "1ffc-1"
+      },
+      "imported": [
+        {
+          "uid": "1ffc-4"
+        },
+        {
+          "uid": "1ffc-5"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "1ffc-2"
+        }
+      ]
+    },
+    "1ffc-2": {
+      "id": "/src/index.ts",
+      "moduleParts": {
+        "index.esm.js": "1ffc-3"
+      },
+      "imported": [
+        {
+          "uid": "1ffc-0"
+        }
+      ],
+      "importedBy": [],
+      "isEntry": true
+    },
+    "1ffc-4": {
+      "id": "@kaakao-ui/styled-mixins",
+      "moduleParts": {},
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "1ffc-0"
+        }
+      ],
+      "isExternal": true
+    },
+    "1ffc-5": {
+      "id": "styled-components",
+      "moduleParts": {},
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "1ffc-0"
+        }
+      ],
+      "isExternal": true
+    }
+  },
+  "env": {
+    "rollup": "2.64.0"
+  },
+  "options": {
+    "gzip": true,
+    "brotli": true,
+    "sourcemap": false
+  }
+} }
+}
