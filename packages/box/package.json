@@ -1,7 +1,7 @@
 {
-  "name": "@kaakao-ui/visually-hidden",
-  "version": "0.0.4",
-  "description": "Visually hidden component in the Kaakao-UI Design System.",
+  "name": "@kaakao-ui/box",
+  "version": "0.0.1",
+  "description": "Box is the most abstract Kaakao-UI layout component.",
   "license": "MIT",
   "author": "Daniel Yuschick <daniel.yuschick@gmail.com>",
   "repository": "https://github.com/kaakao-ui/react-components",
@@ -20,6 +20,7 @@
   },
   "sideEffects": false,
   "devDependencies": {
+    "@kaakao-ui/styled-mixins": "^0.0.5",
     "styled-components": "^5.3.3"
   },
   "peerDependencies": {
@@ -30,7 +31,7 @@
     "components",
     "kaakao",
     "react",
-    "visually hidden"
+    "box"
   ],
   "publishConfig": {
     "access": "public"

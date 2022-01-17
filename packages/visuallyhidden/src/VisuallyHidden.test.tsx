@@ -2,7 +2,7 @@ import React from 'react';
 import '@testing-library/jest-dom';
 
 import VisuallyHidden from './VisuallyHidden';
-import { render, screen } from '../../utils/test-utils';
+import { render, screen } from 'packages/utils/test-utils';
 
 describe('<VisuallyHidden />', () => {
   test('Renders with correct text', () => {

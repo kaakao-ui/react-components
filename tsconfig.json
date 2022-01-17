@@ -9,6 +9,7 @@
     "moduleResolution": "node",
     "baseUrl": "./",
     "paths": {
+      "@kaakao-ui/box": ["./packages/box/src/index.ts"],
       "@kaakao-ui/visually-hidden": ["./packages/visuallyhidden/src/index.ts"]
     },
     "allowSyntheticDefaultImports": true,
@@ -17,7 +18,7 @@
     "noEmit": true,
     "types": ["jest", "@testing-library/jest-dom"]
   },
-  "files": ["utils/types/declarations.d.ts"],
+  "files": ["utils/declarations.d.ts"],
   "include": ["packages/*/src/**/*"],
   "exclude": ["node_modules", "**/node_modules", "**/dist"]
 }
