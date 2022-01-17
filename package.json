@@ -7,6 +7,8 @@
   ],
   "scripts": {
     "lint": "eslint packages/*/src/ --ext ts,tsx --max-warnings 0",
+    "box": "yarn workspace @kaakao-ui/box",
+    "box:build": "yarn lint && yarn box build",
     "visuallyhidden": "yarn workspace @kaakao-ui/visually-hidden",
     "visuallyhidden:build": "yarn lint && yarn visuallyhidden build",
     "reset": "rm -rf yarn.lock node_modules packages/*/node_modules && yarn install",
