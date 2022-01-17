@@ -10,11 +10,11 @@
             "name": "src",
             "children": [
               {
-                "uid": "6e82-1",
-                "name": "VisuallyHidden.tsx"
+                "uid": "1ffc-1",
+                "name": "Box.tsx"
               },
               {
-                "uid": "6e82-3",
+                "uid": "1ffc-3",
                 "name": "index.ts"
               }
             ]
@@ -25,56 +25,70 @@
     "isRoot": true
   },
   "nodeParts": {
-    "6e82-1": {
-      "renderedLength": 399,
-      "gzipLength": 282,
-      "brotliLength": 220,
-      "mainUid": "6e82-0"
+    "1ffc-1": {
+      "renderedLength": 278,
+      "gzipLength": 203,
+      "brotliLength": 172,
+      "mainUid": "1ffc-0"
     },
-    "6e82-3": {
+    "1ffc-3": {
       "renderedLength": 0,
       "gzipLength": 0,
       "brotliLength": 0,
-      "mainUid": "6e82-2"
+      "mainUid": "1ffc-2"
     }
   },
   "nodeMetas": {
-    "6e82-0": {
-      "id": "/src/VisuallyHidden.tsx",
+    "1ffc-0": {
+      "id": "/src/Box.tsx",
       "moduleParts": {
-        "index.esm.js": "6e82-1"
+        "index.esm.js": "1ffc-1"
       },
       "imported": [
         {
-          "uid": "6e82-4"
+          "uid": "1ffc-4"
+        },
+        {
+          "uid": "1ffc-5"
         }
       ],
       "importedBy": [
         {
-          "uid": "6e82-2"
+          "uid": "1ffc-2"
         }
       ]
     },
-    "6e82-2": {
+    "1ffc-2": {
       "id": "/src/index.ts",
       "moduleParts": {
-        "index.esm.js": "6e82-3"
+        "index.esm.js": "1ffc-3"
       },
       "imported": [
         {
-          "uid": "6e82-0"
+          "uid": "1ffc-0"
         }
       ],
       "importedBy": [],
       "isEntry": true
     },
-    "6e82-4": {
+    "1ffc-4": {
+      "id": "@kaakao-ui/styled-mixins",
+      "moduleParts": {},
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "1ffc-0"
+        }
+      ],
+      "isExternal": true
+    },
+    "1ffc-5": {
       "id": "styled-components",
       "moduleParts": {},
       "imported": [],
       "importedBy": [
         {
-          "uid": "6e82-0"
+          "uid": "1ffc-0"
         }
       ],
       "isExternal": true
@@ -88,4 +102,5 @@
     "brotli": true,
     "sourcemap": false
   }
+} }
 }
