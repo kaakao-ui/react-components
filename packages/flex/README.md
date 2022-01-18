@@ -1,25 +1,25 @@
-# @kaakao-ui/box [![npm version](https://flat.badgen.net/npm/v/@kaakao-ui/box)](https://www.npmjs.com/package/@kaakao-ui/box)
+# @kaakao-ui/flex [![npm version](https://flat.badgen.net/npm/v/@kaakao-ui/flex)](https://www.npmjs.com/package/@kaakao-ui/flex)
 
-This package includes the Box component from the Kaakao-UI Design System
+This package includes the Flex component from the Kaakao-UI Design System
 [Kaakao-UI Design System](https://github.com/kaakao-ui).
 
 ## Description
 
-Box is a base layout component, and the most abstract in Kaakao-UI.
+Flex is a base layout component in Kaakao-UI.
 
 ## Installation
 
 ```sh
-npm install @kaakao-ui/box
+npm install @kaakao-ui/flex
 
 # With Peer Dependencies
-npm install react react-dom @kaakao-ui/box
+npm install react react-dom @kaakao-ui/flex
 ```
 
 ## Usage
 
 ```jsx
-import { Box } from '@kaakao-ui/box';
+import { Flex } from '@kaakao-ui/flex';
 
-<Box>Kaakao-UI</Box>;
+<Flex>Kaakao-UI</Flex>;
 ```
