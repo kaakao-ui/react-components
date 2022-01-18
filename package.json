@@ -11,6 +11,8 @@
     "box:build": "yarn lint && yarn box build",
     "flex": "yarn workspace @kaakao-ui/flex",
     "flex:build": "yarn lint && yarn flex build",
+    "grid": "yarn workspace @kaakao-ui/grid",
+    "grid:build": "yarn lint && yarn grid build",
     "visuallyhidden": "yarn workspace @kaakao-ui/visually-hidden",
     "visuallyhidden:build": "yarn lint && yarn visuallyhidden build",
     "reset": "rm -rf yarn.lock node_modules packages/*/node_modules && yarn install",

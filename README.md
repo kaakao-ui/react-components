@@ -12,6 +12,7 @@ See the individual package README for the React component you would like to inst
 | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
 | [`@kaakao-ui/box`](packages/box)                        | [![npm version](https://flat.badgen.net/npm/v/@kaakao-ui/box)](https://www.npmjs.com/package/@kaakao-ui/box)                         | ![Bundle Size](https://flat.badgen.net/bundlephobia/minzip/@kaakao-ui/box)             |
 | [`@kaakao-ui/flex`](packages/flex)                      | [![npm version](https://flat.badgen.net/npm/v/@kaakao-ui/flex)](https://www.npmjs.com/package/@kaakao-ui/flex)                       | ![Bundle Size](https://flat.badgen.net/bundlephobia/minzip/@kaakao-ui/flex)            |
+| [`@kaakao-ui/grid`](packages/grid)                      | [![npm version](https://flat.badgen.net/npm/v/@kaakao-ui/grid)](https://www.npmjs.com/package/@kaakao-ui/grid)                       | ![Bundle Size](https://flat.badgen.net/bundlephobia/minzip/@kaakao-ui/grid)            |
 | [`@kaakao-ui/visually-hidden`](packages/visuallyhidden) | [![npm version](https://flat.badgen.net/npm/v/@kaakao-ui/visually-hidden)](https://www.npmjs.com/package/@kaakao-ui/visually-hidden) | ![Bundle Size](https://flat.badgen.net/bundlephobia/minzip/@kaakao-ui/visually-hidden) |
 
 ## Usage
