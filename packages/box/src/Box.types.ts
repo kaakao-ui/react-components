@@ -1,10 +1,26 @@
 import React from 'react';
-import { IBorderRadius, IPosition, ISpace } from '@kaakao-ui/styled-mixins';
+import {
+  IBackground,
+  IBorderRadius,
+  IBoxShadow,
+  IGradient,
+  ILayout,
+  IOther,
+  IPosition,
+  ISpace,
+  ITypography
+} from '@kaakao-ui/styled-mixins';
 
 export interface IBox
   extends React.HTMLAttributes<HTMLDivElement>,
+    IBackground,
     IBorderRadius,
+    IBoxShadow,
+    IGradient,
+    Omit<ILayout, 'flex' | 'grid' | 'inline-flex' | 'inline-grid'>,
+    IOther,
     IPosition,
-    ISpace {
+    ISpace,
+    ITypography {
   testId?: string;
 }
