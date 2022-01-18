@@ -11,7 +11,7 @@ import {
   ITypography
 } from '@kaakao-ui/styled-mixins';
 
-export interface IBox
+export interface IFlex
   extends React.HTMLAttributes<HTMLDivElement>,
     IBackground,
     IBorderRadius,
@@ -22,6 +22,6 @@ export interface IBox
     IPosition,
     ISpace,
     ITypography {
-  display?: Exclude<ILayout['display'], 'flex' | 'grid' | 'inline-flex' | 'inline-grid'>;
+  display?: Extract<ILayout['display'], 'flex' | 'inline-flex'>;
   testId?: string;
 }
