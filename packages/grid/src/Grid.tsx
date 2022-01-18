@@ -24,7 +24,7 @@ const Grid = styled.div.attrs<IGrid>(props => ({
     ${BoxShadow(props)};
     ${Gradient(props)};
     ${GridMixin(props)};
-    ${Layout({ ...props, display: props.display || 'flex' })};
+    ${Layout({ ...props, display: props.display || 'grid' })};
     ${Other(props)};
     ${Position(props)};
     ${Space(props)};
