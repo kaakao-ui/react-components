@@ -1,0 +1,132 @@
+{
+  "version": 2,
+  "tree": {
+    "name": "root",
+    "children": [
+      {
+        "name": "index.cjs.js",
+        "children": [
+          {
+            "uid": "fd0c-1",
+            "name": "\u0000rollupPluginBabelHelpers.js"
+          },
+          {
+            "name": "src",
+            "children": [
+              {
+                "uid": "fd0c-3",
+                "name": "Flex.tsx"
+              },
+              {
+                "uid": "fd0c-5",
+                "name": "index.ts"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "isRoot": true
+  },
+  "nodeParts": {
+    "fd0c-1": {
+      "renderedLength": 1169,
+      "gzipLength": 444,
+      "brotliLength": 386,
+      "mainUid": "fd0c-0"
+    },
+    "fd0c-3": {
+      "renderedLength": 706,
+      "gzipLength": 344,
+      "brotliLength": 292,
+      "mainUid": "fd0c-2"
+    },
+    "fd0c-5": {
+      "renderedLength": 0,
+      "gzipLength": 0,
+      "brotliLength": 0,
+      "mainUid": "fd0c-4"
+    }
+  },
+  "nodeMetas": {
+    "fd0c-0": {
+      "id": "\u0000rollupPluginBabelHelpers.js",
+      "moduleParts": {
+        "index.cjs.js": "fd0c-1"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "fd0c-2"
+        }
+      ]
+    },
+    "fd0c-2": {
+      "id": "/src/Flex.tsx",
+      "moduleParts": {
+        "index.cjs.js": "fd0c-3"
+      },
+      "imported": [
+        {
+          "uid": "fd0c-0"
+        },
+        {
+          "uid": "fd0c-6"
+        },
+        {
+          "uid": "fd0c-7"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "fd0c-4"
+        }
+      ]
+    },
+    "fd0c-4": {
+      "id": "/src/index.ts",
+      "moduleParts": {
+        "index.cjs.js": "fd0c-5"
+      },
+      "imported": [
+        {
+          "uid": "fd0c-2"
+        }
+      ],
+      "importedBy": [],
+      "isEntry": true
+    },
+    "fd0c-6": {
+      "id": "@kaakao-ui/styled-mixins",
+      "moduleParts": {},
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "fd0c-2"
+        }
+      ],
+      "isExternal": true
+    },
+    "fd0c-7": {
+      "id": "styled-components",
+      "moduleParts": {},
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "fd0c-2"
+        }
+      ],
+      "isExternal": true
+    }
+  },
+  "env": {
+    "rollup": "2.64.0"
+  },
+  "options": {
+    "gzip": true,
+    "brotli": true,
+    "sourcemap": false
+  }
+}cemap": false
+  }
+}
