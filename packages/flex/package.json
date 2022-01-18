@@ -1,6 +1,6 @@
 {
   "name": "@kaakao-ui/flex",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The base Flex component from Kaakao-UI.",
   "license": "MIT",
   "author": "Daniel Yuschick <daniel.yuschick@gmail.com>",

@@ -4,21 +4,21 @@
     "name": "root",
     "children": [
       {
-        "name": "index.cjs.js",
+        "name": "index.esm.js",
         "children": [
           {
-            "uid": "fd0c-1",
+            "uid": "9941-9",
             "name": "\u0000rollupPluginBabelHelpers.js"
           },
           {
             "name": "src",
             "children": [
               {
-                "uid": "fd0c-3",
+                "uid": "9941-11",
                 "name": "Flex.tsx"
               },
               {
-                "uid": "fd0c-5",
+                "uid": "9941-13",
                 "name": "index.ts"
               }
             ]
@@ -29,91 +29,91 @@
     "isRoot": true
   },
   "nodeParts": {
-    "fd0c-1": {
+    "9941-9": {
       "renderedLength": 1169,
       "gzipLength": 444,
       "brotliLength": 386,
-      "mainUid": "fd0c-0"
+      "mainUid": "9941-8"
     },
-    "fd0c-3": {
-      "renderedLength": 706,
-      "gzipLength": 344,
-      "brotliLength": 292,
-      "mainUid": "fd0c-2"
+    "9941-11": {
+      "renderedLength": 668,
+      "gzipLength": 343,
+      "brotliLength": 296,
+      "mainUid": "9941-10"
     },
-    "fd0c-5": {
+    "9941-13": {
       "renderedLength": 0,
       "gzipLength": 0,
       "brotliLength": 0,
-      "mainUid": "fd0c-4"
+      "mainUid": "9941-12"
     }
   },
   "nodeMetas": {
-    "fd0c-0": {
+    "9941-8": {
       "id": "\u0000rollupPluginBabelHelpers.js",
       "moduleParts": {
-        "index.cjs.js": "fd0c-1"
+        "index.esm.js": "9941-9"
       },
       "imported": [],
       "importedBy": [
         {
-          "uid": "fd0c-2"
+          "uid": "9941-10"
         }
       ]
     },
-    "fd0c-2": {
+    "9941-10": {
       "id": "/src/Flex.tsx",
       "moduleParts": {
-        "index.cjs.js": "fd0c-3"
+        "index.esm.js": "9941-11"
       },
       "imported": [
         {
-          "uid": "fd0c-0"
+          "uid": "9941-8"
         },
         {
-          "uid": "fd0c-6"
+          "uid": "9941-14"
         },
         {
-          "uid": "fd0c-7"
+          "uid": "9941-15"
         }
       ],
       "importedBy": [
         {
-          "uid": "fd0c-4"
+          "uid": "9941-12"
         }
       ]
     },
-    "fd0c-4": {
+    "9941-12": {
       "id": "/src/index.ts",
       "moduleParts": {
-        "index.cjs.js": "fd0c-5"
+        "index.esm.js": "9941-13"
       },
       "imported": [
         {
-          "uid": "fd0c-2"
+          "uid": "9941-10"
         }
       ],
       "importedBy": [],
       "isEntry": true
     },
-    "fd0c-6": {
+    "9941-14": {
       "id": "@kaakao-ui/styled-mixins",
       "moduleParts": {},
       "imported": [],
       "importedBy": [
         {
-          "uid": "fd0c-2"
+          "uid": "9941-10"
         }
       ],
       "isExternal": true
     },
-    "fd0c-7": {
+    "9941-15": {
       "id": "styled-components",
       "moduleParts": {},
       "imported": [],
       "importedBy": [
         {
-          "uid": "fd0c-2"
+          "uid": "9941-10"
         }
       ],
       "isExternal": true
@@ -126,7 +126,5 @@
     "gzip": true,
     "brotli": true,
     "sourcemap": false
-  }
-}cemap": false
   }
 }
