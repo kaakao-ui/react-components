@@ -1,9 +1,15 @@
 /* eslint-disable import/export */
 import React, { FC, ReactElement } from 'react';
 import { render, RenderOptions } from '@testing-library/react';
+import { ThemeProvider } from 'styled-components';
 
 const TestsWrapper: FC = ({ children }) => {
-  return <>{children}</>;
+  return (
+    <ThemeProvider theme={{ space: { 0: 0, 0.5: '4px', 1: '8px', 1.5: '12px', 2: '16px' } }}>
+      {/* TODO: Create full default theme */}
+      {children}
+    </ThemeProvider>
+  );
 };
 
 const testsRender = (ui: ReactElement, options?: Omit<RenderOptions, 'wrapper'>) =>
