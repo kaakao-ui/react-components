@@ -1,6 +1,6 @@
 {
   "name": "@kaakao-ui/box",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Box is the most abstract Kaakao-UI layout component.",
   "license": "MIT",
   "author": "Daniel Yuschick <daniel.yuschick@gmail.com>",
@@ -20,7 +20,7 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@kaakao-ui/styled-mixins": "^0.0.12"
+    "@kaakao-ui/styled-mixins": "^0.0.13"
   },
   "devDependencies": {
     "styled-components": "^5.3.3"

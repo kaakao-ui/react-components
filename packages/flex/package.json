@@ -1,6 +1,6 @@
 {
   "name": "@kaakao-ui/flex",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "The base Flex component from Kaakao-UI.",
   "license": "MIT",
   "author": "Daniel Yuschick <daniel.yuschick@gmail.com>",
@@ -20,7 +20,7 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@kaakao-ui/styled-mixins": "^0.0.12"
+    "@kaakao-ui/styled-mixins": "^0.0.13"
   },
   "devDependencies": {
     "styled-components": "^5.3.3"

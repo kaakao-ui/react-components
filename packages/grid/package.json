@@ -1,6 +1,6 @@
 {
   "name": "@kaakao-ui/grid",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "The base Grid component from Kaakao-UI.",
   "license": "MIT",
   "author": "Daniel Yuschick <daniel.yuschick@gmail.com>",
