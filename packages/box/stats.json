@@ -10,11 +10,11 @@
             "name": "src",
             "children": [
               {
-                "uid": "8297-1",
+                "uid": "c6e1-1",
                 "name": "Box.tsx"
               },
               {
-                "uid": "8297-3",
+                "uid": "c6e1-3",
                 "name": "index.ts"
               }
             ]
@@ -25,70 +25,70 @@
     "isRoot": true
   },
   "nodeParts": {
-    "8297-1": {
+    "c6e1-1": {
       "renderedLength": 475,
       "gzipLength": 279,
       "brotliLength": 252,
-      "mainUid": "8297-0"
+      "mainUid": "c6e1-0"
     },
-    "8297-3": {
+    "c6e1-3": {
       "renderedLength": 0,
       "gzipLength": 0,
       "brotliLength": 0,
-      "mainUid": "8297-2"
+      "mainUid": "c6e1-2"
     }
   },
   "nodeMetas": {
-    "8297-0": {
+    "c6e1-0": {
       "id": "/src/Box.tsx",
       "moduleParts": {
-        "index.esm.js": "8297-1"
+        "index.esm.js": "c6e1-1"
       },
       "imported": [
         {
-          "uid": "8297-4"
+          "uid": "c6e1-4"
         },
         {
-          "uid": "8297-5"
+          "uid": "c6e1-5"
         }
       ],
       "importedBy": [
         {
-          "uid": "8297-2"
+          "uid": "c6e1-2"
         }
       ]
     },
-    "8297-2": {
+    "c6e1-2": {
       "id": "/src/index.ts",
       "moduleParts": {
-        "index.esm.js": "8297-3"
+        "index.esm.js": "c6e1-3"
       },
       "imported": [
         {
-          "uid": "8297-0"
+          "uid": "c6e1-0"
         }
       ],
       "importedBy": [],
       "isEntry": true
     },
-    "8297-4": {
+    "c6e1-4": {
       "id": "@kaakao-ui/styled-mixins",
       "moduleParts": {},
       "imported": [],
       "importedBy": [
         {
-          "uid": "8297-0"
+          "uid": "c6e1-0"
         }
       ],
       "isExternal": true
     },
-    "8297-5": {
+    "c6e1-5": {
       "id": "styled-components",
       "moduleParts": {},
       "imported": [],
       "importedBy": [
         {
-          "uid": "8297-0"
+          "uid": "c6e1-0"
         }
       ],
       "isExternal": true
