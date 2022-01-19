@@ -1,6 +1,7 @@
 import React from 'react';
 import {
   IBackground,
+  IBorder,
   IBorderRadius,
   IBoxShadow,
   IGrid as IGridProps,
@@ -15,6 +16,7 @@ import {
 export interface IGrid
   extends React.HTMLAttributes<HTMLDivElement>,
     IBackground,
+    IBorder,
     IBorderRadius,
     IBoxShadow,
     IGridProps,

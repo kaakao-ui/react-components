@@ -1,6 +1,7 @@
 import React from 'react';
 import {
   IBackground,
+  IBorder,
   IBorderRadius,
   IBoxShadow,
   IFlex as IFlexProps,
@@ -15,6 +16,7 @@ import {
 export interface IFlex
   extends React.HTMLAttributes<HTMLDivElement>,
     IBackground,
+    IBorder,
     IBorderRadius,
     IBoxShadow,
     IFlexProps,

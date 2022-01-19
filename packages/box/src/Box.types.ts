@@ -1,6 +1,7 @@
 import React from 'react';
 import {
   IBackground,
+  IBorder,
   IBorderRadius,
   IBoxShadow,
   IGradient,
@@ -14,6 +15,7 @@ import {
 export interface IBox
   extends React.HTMLAttributes<HTMLDivElement>,
     IBackground,
+    IBorder,
     IBorderRadius,
     IBoxShadow,
     IGradient,
