@@ -1,7 +1,7 @@
 {
-  "name": "@kaakao-ui/flex",
-  "version": "0.0.6",
-  "description": "The base Flex component from Kaakao-UI.",
+  "name": "@kaakao-ui/text",
+  "version": "0.0.2",
+  "description": "Text is the base typography component in Kaakao-UI.",
   "license": "MIT",
   "author": "Daniel Yuschick <daniel.yuschick@gmail.com>",
   "repository": "https://github.com/kaakao-ui/react-components",
@@ -33,7 +33,7 @@
     "components",
     "kaakao",
     "react",
-    "flex"
+    "text"
   ],
   "publishConfig": {
     "access": "public"

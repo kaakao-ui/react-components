@@ -1,0 +1,176 @@
+{
+  "version": 2,
+  "tree": {
+    "name": "root",
+    "children": [
+      {
+        "name": "index.cjs.js",
+        "children": [
+          {
+            "uid": "710a-12",
+            "name": "\u0000rollupPluginBabelHelpers.js"
+          },
+          {
+            "name": "src",
+            "children": [
+              {
+                "name": "utils/trimLines.ts",
+                "uid": "710a-14"
+              },
+              {
+                "name": "Text/Text.tsx",
+                "uid": "710a-16"
+              },
+              {
+                "uid": "710a-18",
+                "name": "index.ts"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "isRoot": true
+  },
+  "nodeParts": {
+    "710a-12": {
+      "renderedLength": 1169,
+      "gzipLength": 444,
+      "brotliLength": 386,
+      "mainUid": "710a-11"
+    },
+    "710a-14": {
+      "renderedLength": 1000,
+      "gzipLength": 493,
+      "brotliLength": 423,
+      "mainUid": "710a-13"
+    },
+    "710a-16": {
+      "renderedLength": 680,
+      "gzipLength": 366,
+      "brotliLength": 341,
+      "mainUid": "710a-15"
+    },
+    "710a-18": {
+      "renderedLength": 0,
+      "gzipLength": 0,
+      "brotliLength": 0,
+      "mainUid": "710a-17"
+    }
+  },
+  "nodeMetas": {
+    "710a-11": {
+      "id": "\u0000rollupPluginBabelHelpers.js",
+      "moduleParts": {
+        "index.cjs.js": "710a-12"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "710a-15"
+        }
+      ]
+    },
+    "710a-13": {
+      "id": "/src/utils/trimLines.ts",
+      "moduleParts": {
+        "index.cjs.js": "710a-14"
+      },
+      "imported": [
+        {
+          "uid": "710a-21"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "710a-15"
+        }
+      ]
+    },
+    "710a-15": {
+      "id": "/src/Text/Text.tsx",
+      "moduleParts": {
+        "index.cjs.js": "710a-16"
+      },
+      "imported": [
+        {
+          "uid": "710a-11"
+        },
+        {
+          "uid": "710a-20"
+        },
+        {
+          "uid": "710a-21"
+        },
+        {
+          "uid": "710a-13"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "710a-19"
+        }
+      ]
+    },
+    "710a-17": {
+      "id": "/src/index.ts",
+      "moduleParts": {
+        "index.cjs.js": "710a-18"
+      },
+      "imported": [
+        {
+          "uid": "710a-19"
+        }
+      ],
+      "importedBy": [],
+      "isEntry": true
+    },
+    "710a-19": {
+      "id": "/src/Text/index.ts",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "710a-15"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "710a-17"
+        }
+      ]
+    },
+    "710a-20": {
+      "id": "@kaakao-ui/styled-mixins",
+      "moduleParts": {},
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "710a-15"
+        }
+      ],
+      "isExternal": true
+    },
+    "710a-21": {
+      "id": "styled-components",
+      "moduleParts": {},
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "710a-15"
+        },
+        {
+          "uid": "710a-13"
+        }
+      ],
+      "isExternal": true
+    }
+  },
+  "env": {
+    "rollup": "2.64.0"
+  },
+  "options": {
+    "gzip": true,
+    "brotli": true,
+    "sourcemap": false
+  }
+}

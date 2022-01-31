@@ -20,7 +20,7 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@kaakao-ui/styled-mixins": "^0.0.14"
+    "@kaakao-ui/styled-mixins": "^0.0.15"
   },
   "devDependencies": {
     "styled-components": "^5.3.3"
