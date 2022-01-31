@@ -1,5 +1,6 @@
 import {
   Background,
+  Border,
   BorderRadius,
   BoxShadow,
   Grid as GridMixin,
@@ -20,6 +21,7 @@ const Grid = styled.div.attrs<IGrid>(props => ({
 }))<IGrid>`
   ${props => css`
     ${Background(props)};
+    ${Border(props)};
     ${BorderRadius(props)};
     ${BoxShadow(props)};
     ${Gradient(props)};

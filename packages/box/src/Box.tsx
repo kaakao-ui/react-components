@@ -1,5 +1,6 @@
 import {
   Background,
+  Border,
   BorderRadius,
   BoxShadow,
   Gradient,
@@ -19,6 +20,7 @@ const Box = styled.div.attrs<IBox>(props => ({
 }))<IBox>`
   ${props => css`
     ${Background(props)};
+    ${Border(props)};
     ${BorderRadius(props)};
     ${BoxShadow(props)};
     ${Gradient(props)};

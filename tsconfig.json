@@ -10,6 +10,8 @@
     "baseUrl": "./",
     "paths": {
       "@kaakao-ui/box": ["./packages/box/src/index.ts"],
+      "@kaakao-ui/flex": ["./packages/flex/src/index.ts"],
+      "@kaakao-ui/grid": ["./packages/grid/src/index.ts"],
       "@kaakao-ui/visually-hidden": ["./packages/visuallyhidden/src/index.ts"]
     },
     "allowSyntheticDefaultImports": true,

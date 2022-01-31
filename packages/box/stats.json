@@ -4,17 +4,17 @@
     "name": "root",
     "children": [
       {
-        "name": "index.esm.js",
+        "name": "index.cjs.js",
         "children": [
           {
             "name": "src",
             "children": [
               {
-                "uid": "81cb-1",
+                "uid": "30cc-7",
                 "name": "Box.tsx"
               },
               {
-                "uid": "81cb-3",
+                "uid": "30cc-9",
                 "name": "index.ts"
               }
             ]
@@ -25,70 +25,70 @@
     "isRoot": true
   },
   "nodeParts": {
-    "81cb-1": {
-      "renderedLength": 476,
-      "gzipLength": 279,
-      "brotliLength": 260,
-      "mainUid": "81cb-0"
+    "30cc-7": {
+      "renderedLength": 653,
+      "gzipLength": 306,
+      "brotliLength": 280,
+      "mainUid": "30cc-6"
     },
-    "81cb-3": {
+    "30cc-9": {
       "renderedLength": 0,
       "gzipLength": 0,
       "brotliLength": 0,
-      "mainUid": "81cb-2"
+      "mainUid": "30cc-8"
     }
   },
   "nodeMetas": {
-    "81cb-0": {
+    "30cc-6": {
       "id": "/src/Box.tsx",
       "moduleParts": {
-        "index.esm.js": "81cb-1"
+        "index.cjs.js": "30cc-7"
       },
       "imported": [
         {
-          "uid": "81cb-4"
+          "uid": "30cc-10"
         },
         {
-          "uid": "81cb-5"
+          "uid": "30cc-11"
         }
       ],
       "importedBy": [
         {
-          "uid": "81cb-2"
+          "uid": "30cc-8"
         }
       ]
     },
-    "81cb-2": {
+    "30cc-8": {
       "id": "/src/index.ts",
       "moduleParts": {
-        "index.esm.js": "81cb-3"
+        "index.cjs.js": "30cc-9"
       },
       "imported": [
         {
-          "uid": "81cb-0"
+          "uid": "30cc-6"
         }
       ],
       "importedBy": [],
       "isEntry": true
     },
-    "81cb-4": {
+    "30cc-10": {
       "id": "@kaakao-ui/styled-mixins",
       "moduleParts": {},
       "imported": [],
       "importedBy": [
         {
-          "uid": "81cb-0"
+          "uid": "30cc-6"
         }
       ],
       "isExternal": true
     },
-    "81cb-5": {
+    "30cc-11": {
       "id": "styled-components",
       "moduleParts": {},
       "imported": [],
       "importedBy": [
         {
-          "uid": "81cb-0"
+          "uid": "30cc-6"
         }
       ],
       "isExternal": true
@@ -102,5 +102,4 @@
     "brotli": true,
     "sourcemap": false
   }
-} }
 }

@@ -1,5 +1,6 @@
 import {
   Background,
+  Border,
   BorderRadius,
   BoxShadow,
   Flex as FlexMixin,
@@ -20,6 +21,7 @@ const Flex = styled.div.attrs<IFlex>(props => ({
 }))<IFlex>`
   ${props => css`
     ${Background(props)};
+    ${Border(props)};
     ${BorderRadius(props)};
     ${BoxShadow(props)};
     ${FlexMixin({ ...props, flexWrap: props.flexWrap || 'wrap' })};
