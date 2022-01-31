@@ -9,10 +9,11 @@
     "moduleResolution": "node",
     "baseUrl": "./",
     "paths": {
-      "@kaakao-ui/box": ["./packages/box/src/index.ts"],
-      "@kaakao-ui/flex": ["./packages/flex/src/index.ts"],
-      "@kaakao-ui/grid": ["./packages/grid/src/index.ts"],
-      "@kaakao-ui/visually-hidden": ["./packages/visuallyhidden/src/index.ts"]
+      "@kaakao-ui/box": ["packages/box/src/index.ts"],
+      "@kaakao-ui/flex": ["packages/flex/src/index.ts"],
+      "@kaakao-ui/grid": [".ackages/grid/src/index.ts"],
+      "@kaakao-ui/text": ["packages/text/src/index.ts"],
+      "@kaakao-ui/visually-hidden": ["packages/visuallyhidden/src/index.ts"]
     },
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
@@ -20,7 +21,7 @@
     "noEmit": true,
     "types": ["jest", "@testing-library/jest-dom"]
   },
-  "files": ["utils/declarations.d.ts"],
+  "files": ["utils/declarations.d.ts", "utils/styled.d.ts"],
   "include": ["packages/*/src/**/*"],
   "exclude": ["node_modules", "**/node_modules", "**/dist"]
 }
